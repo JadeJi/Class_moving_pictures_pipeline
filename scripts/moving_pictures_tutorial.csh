@@ -1,3 +1,10 @@
+export TMPDIR='/scratch/users/s-rji6@jhu.edu/tmp'
+export LC_ALL=en_US.utf-8
+export LANG=en_US.utf-8
+
+module load qiime2/2018.8
+
+
 wget \
   -O "sample-metadata.tsv" \
   "https://data.qiime2.org/2018.8/tutorials/moving-pictures/sample_metadata.tsv"
